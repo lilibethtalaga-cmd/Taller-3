@@ -1,0 +1,6 @@
+[2026-11-19 15:45:42] Generados y ordenados los 50 registros aleatorios.
+[2026-11-19 15:45:49] Validación ejecutada: 50 válidos, 0 inválidos.
+[2026-11-19 15:45:53] Estructura de carpetas verificada/creada.
+[2026-11-19 15:45:53] Se exportaron 50 registros a TXT, CSV y JSON.
+[2026-11-19 15:46:05] Se insertaron 50 registros en MongoDB.
+[2026-11-19 15:47:11] Consultas de MongoDB ejecutadas y exportadas a resultados_mongo.json.
