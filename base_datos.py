@@ -33,7 +33,7 @@ def subir_a_mongo(registros_validos):
 def ejecutar_consultas_y_exportar(id_buscar):
     try:
         coleccion = conectar_db()
-        todos = list(coleccion.find({}, {"_id": 0})) # Trae todo sin el _id interno de Mongo
+        todos = list(coleccion.find({}, {"_id": 0}))
 
         frecuencias = [int(doc["fc"].replace("ppm", "")) for doc in todos]
         promedio_fc = sum(frecuencias) / len(frecuencias) if frecuencias else 0
