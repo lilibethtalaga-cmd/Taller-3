@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 16 12:58:58 2026
-
-@author: Lily
-"""
 
 from pymongo import MongoClient
 import json
