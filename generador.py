@@ -5,13 +5,6 @@ Created on Mon Nov 16 12:58:01 2026
 @author: Lily
 """
 
-#id (Identificacion), de la forma ”ID-001”. ´
-#fr (Edad), de la forma ”18 Anos”.
-#fc (Frecuencia cardiaca), de la forma ”090ppm”.
-#spo2 (Saturacion periférica de oxígeno), de la forma ”95%”
-#ordenar los datos por frecuencia cardiaca.
-
-
 import random
 
 def generar_datos(cantidad=50):
